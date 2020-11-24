@@ -21,7 +21,7 @@ namespace ConnectDBHW.Classes
         {
             if (Directory.Exists(this.path)) 
             {
-                for (int i = 0; i < 2; i++) 
+                for (int i = 0; i < 3; i++) 
                 {
                string[] files = Directory.GetFiles(this.path);
                 SqlConnection sqlConn = new SqlConnection(this.connectionStr);
