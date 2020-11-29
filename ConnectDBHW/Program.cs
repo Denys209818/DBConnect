@@ -13,7 +13,7 @@ namespace ConnectDBHW
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
 
-            string connectionStr = "Data Source=denyskravchuk.database.windows.net;Initial Catalog=Academy;User ID=denys;Password=$denus2005$";
+            string connectionStr = "Data Source=serverpu816.database.windows.net;Initial Catalog=test;User ID=pu816;Password=Qwerty1*";
             CreateDB c = new CreateDB(connectionStr);
 
             c.ExecuteQuery();
